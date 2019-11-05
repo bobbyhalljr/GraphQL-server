@@ -1,0 +1,33 @@
+{
+  "name": "GraphQL-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobbyhalljr/GraphQL-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bobbyhalljr/GraphQL-server/issues"
+  },
+  "homepage": "https://github.com/bobbyhalljr/GraphQL-server#readme",
+  "dependencies": {
+    "apollo-server-express": "^1.4.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.8",
+    "graphql-tools": "^4.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
